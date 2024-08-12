@@ -1,0 +1,624 @@
+
+/*=================================================================
+                    Common Css
+===================================================================*/
+*{
+    box-sizing:border-box;
+    margin:0rem;
+    padding:0rem;
+   color:#fff;
+}
+html{
+    
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+
+.container{
+    max-width:96rem;
+    width:100%;
+    margin:0 auto;
+  
+}
+
+/* .container::after,
+.container::before
+{
+ content:"";
+ display:block;
+  
+}
+
+.container::after
+{
+clear:both;
+  
+} */
+
+a{
+    text-decoration:none;
+    font-size:1.6rem;
+    text-transform:uppercase;
+
+}
+
+h1{
+    font-size:4.2rem;
+
+}
+
+h2{
+    font-weight:400;
+    font-size:4rem;
+    margin-bottom:4rem;
+    text-transform:uppercase;
+    
+   
+}
+
+h4{
+    color:#393939;
+    font-size:1.8rem;
+    padding:.5rem 0rem;
+}
+
+h2::after{
+content:"";
+height:.4rem;
+width:8.6rem;
+display:block;
+margin:auto;
+background-color:#14a58c; 
+}
+
+h3{
+    font-size:2.4rem;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-top:1rem;
+   
+}
+
+.col{
+
+}
+
+.col p{
+    font-size:1.6rem;
+    font-weight:300;
+    
+}
+.clearfix::after{
+content:"";
+clear:both;
+display:block;
+visibility: hidden;
+height:0;
+}
+
+.padd{
+    padding:6.5rem 0rem;
+}
+
+
+
+/*=================================================================
+                 Header Css
+===================================================================*/
+
+
+header{
+    position:relative;
+    height:85vh;
+    background:linear-gradient(rgba(135, 80, 156,0.9),rgba(135, 80, 156,0.9)),url(img/bg/Chrysanthemum.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+}
+
+.inner_header{
+   
+   
+    width:100%;
+    background:#87509c;
+}
+
+.logo{
+    height:3.5rem;
+    width:auto;
+    float:left;
+    margin-top:1.5rem;
+}
+.sticy{
+    width:100%;
+    position:fixed;
+    top:0;
+    padding:.4rem 0rem;
+    left:0;
+    box-shadow: 0rem 0.1rem 0.5rem #ddd;
+    background-color:#622f18;
+}
+.sticy .logo{
+    margin-top:0.2rem;
+}
+.sticy .main_manu{
+    margin-top:0.2rem;
+}
+
+.main_manu{
+    float:right;
+    margin-top:2.0rem;
+}
+.main_manu  li{
+    display:inline-block;
+    margin:0rem .5rem;
+
+}
+
+.main_manu  li a{
+    display:block;
+    padding:.8rem 1.2rem;
+    color:#fff;
+    border-radius:.5rem;
+    text-transform:uppercase;
+    
+
+}
+.main_manu  li a:hover{
+ 
+    background-color:#643a79;
+}
+
+.main_manu li.active a{
+    margin:0rem;
+    background-color:#643a79;
+
+}
+
+
+
+.hedear_text_box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+.hedear_text_box  h1{
+    font-size:4.2rem;
+    font-weight:300;
+}
+
+
+.button{
+ 
+    background-color:#eb7d4b;
+    padding:2.0rem 6.0rem;
+    color:#fff;
+    border-radius:.3rem;
+    margin-top:4.5rem;
+    font-weight:400;
+    display:inline-block;
+    transition:.5s;
+    border-bottom:.3rem solid #c86a40;
+}
+
+.hedear_text_box a:hover{
+ background-color:#622f18;
+}
+
+
+
+/*=================================================================
+                Services Css
+===================================================================*/
+
+.service{
+   
+    background:linear-gradient(rgba(23, 194, 164,0.9),rgba(23, 194, 164,0.9)), url(img/bg/Jellyfish.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    
+}
+.inner_sercvice{
+    text-align:center;
+   
+}
+
+.inner_sercvice p{
+    color:#fff;
+}
+
+.little_p{
+    font-size:1.8rem;
+    font-weight:300;
+    line-height:1.3;
+    width:70%;
+    margin-left:15%;
+    display:block;
+}
+
+.flex{
+    display:flex;
+    flex-basis:50%;
+    justify-content:space-between;
+}
+
+.flex p{
+color:#fff;
+}
+
+.flex .col{
+padding:5px;
+}
+
+.service_icon{
+    height:12rem;
+    margin-top:4.5rem;
+    margin-bottom:3.5rem;
+    width:auto;
+  
+}
+
+
+/*=================================================================
+                Team Meetup Css
+===================================================================*/
+.Team_meetup{
+    background:linear-gradient(rgba(231, 241, 248,0.9),rgba(231, 241, 248,0.9)), url(img/bg/Koala.jpg);
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+.Team_meetup h2,p{
+    color:#3c4761;
+}
+
+.Team_meetup h3{
+    color:#27283d;
+}
+
+.Team_meetup a{
+    color:#30bae7;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    display:inline-block;
+}
+
+.Team_meetup h2::after{
+    background-color:#c8d9e5;
+}
+
+
+.team p{
+    color:#27283d;
+}
+
+
+.team_icon{
+    height:15rem;
+    width:15rem;
+    margin-top:4.5rem;
+    margin-bottom:3.5rem;
+    border-radius:50%;
+}
+
+.social_icon {
+    margin-top:4rem;
+    text-align:center;
+}
+
+.social_icon ul li{
+display:inline-block;
+margin:0 .5rem;
+
+}
+
+.social_icon ul li a i::before{
+background-color:#bdd1df;
+height:1.5rem;
+width:1.5rem;
+font-size:1.5rem;
+padding:1rem;
+border-radius:50%;
+display:inline-block;
+transition:.5s;
+
+}
+
+.social_icon ul li a:hover i::before{
+    background:#434443;
+transform:rotate(360deg);
+}
+
+/*=================================================================
+                Skill Css
+===================================================================*/
+.skill{
+    text-align:center;
+}
+
+.skill h2::after{
+   background-color:#dfe8ed;
+}
+
+.skill h2,p{
+    color:#27283d;
+}
+
+.skill p{
+    margin-bottom:2rem;
+}
+
+.skill h3{
+   
+    color:#3c4761;
+}
+
+/*=================================================================
+                Progress bar Css
+===================================================================*/
+
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #30bae7;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 5;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+    fill: #3c4761;
+    text-anchor: middle;
+    font-size:2rem;
+  }
+
+svg.html circle{
+    stroke:#d74680;
+}
+
+svg.Graphic circle{
+    stroke:#15c7a8;
+
+}
+
+svg.ux circle{
+    stroke:#eb7d4b;
+
+}
+
+
+/*=================================================================
+              Portfolio  Css
+===================================================================*/
+
+.portfolio{
+    text-align:center;
+    background-color:#ffdd99;
+    
+}
+
+.portfolio h2,h4,p{
+    color:#393939;
+    
+}
+.portfolio h2::after{
+    background-color:#e5c37f;
+    
+}
+
+
+
+.grid{
+   display:grid;
+   grid-template-columns: 2fr 2fr;
+   grid-gap:1.8rem;
+}
+
+
+
+.portfolio .grid img{
+    width:96%;
+}
+
+.portfolio_button{
+    margin:3rem 0rem;
+}
+
+.portfolio_button button{
+    margin:0rem 0.3rem;
+    padding:1rem 2rem;
+    color:#393939;
+    border:0;
+    transition:.5s;
+    font-weight:600;
+    background-color:#ebc985;
+    border-radius:.5rem;
+    text-transform: uppercase;
+}
+
+.portfolio_button button:hover{
+background-color:#fff;
+cursor:pointer;
+}
+
+.portfolio .button,.inner{
+background-color:rgb(23, 194, 164);
+border-color:rgb(20, 165, 140);
+
+}
+
+.portfolio .button:hover,.inner:hover{
+background-color:rgba(23, 194, 164,.5);
+border-color:rgba(20, 165, 140,.5);
+}
+
+
+/*=================================================================
+              Portfolio  Css
+===================================================================*/
+
+
+.people{
+    background-color:#d74680;
+    text-align:center;
+    width:100%;
+   
+}
+
+.people h2{
+  color:#fff;
+  margin-bottom:1rem;
+}
+
+.people h2::after{
+  background-color:#b73c6d;
+}
+
+.inner_people .little_p{
+    color:#fff;
+    
+}
+
+.inner_people .grid{
+    grid-gap: 9.8rem;
+    
+}
+
+
+.people_elemet img{
+  height:8rem;
+    width:8rem;
+    border-radius:50%;
+   
+   
+}
+
+.people_elemet p{
+ font-size:1.8rem;
+ font-style:italic;
+ color:#fff;
+
+}
+
+.people_elemet a{
+text-align:center;
+color:#ffdd99;
+}
+
+.people_text{
+    float:left;
+    width:80%;
+   
+}
+
+.people_img{
+    width:20%;
+    float:left;
+    margin:0;
+}
+
+.people_port{
+    margin:8rem 0rem 0rem 0rem;
+}
+
+
+/*=================================================================
+              Portfolio  Css
+===================================================================*/
+
+footer{
+    background-color:#3c5499;
+    text-align:center;
+}
+
+
+footer h2::after{
+ background-color:#273a71;
+}
+
+
+footer .little_p{
+ color:#fff;
+}
+form{
+    margin-top:8rem;
+    width:80%;
+    margin-left:10%;
+}
+
+footer input,textarea{
+ padding:1.5rem;
+ background-color:#273a71;
+ border:0;
+ border-radius:.5rem;
+ font-size:1.8rem;
+ flex-basis:40%;
+
+}
+footer input::placeholder{
+color:#fff;
+
+}
+footer textarea::placeholder{
+color:#fff;
+
+}
+
+textarea{
+    width:100%;
+    height:16rem;
+    margin:2rem 0rem;
+}
+
+
+footer .flex{
+
+
+}
+
+.social{
+    background-color:#344b8e;
+    text-align:center;
+}
+
+.social ul li{
+    display:inline-block;
+    margin:0rem 2.5rem;
+    padding:2rem 0rem;
+}
+.social ul li a{ 
+display:block;
+padding:.5rem;
+transition:.5s;
+}
+.social ul li a:hover{ 
+color:#30bae7;
+}
+
+
+
